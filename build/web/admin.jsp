@@ -1,0 +1,46 @@
+<html>
+    <style>
+        #table1{
+            background-color:rgb(255,250,250);
+             width:330px;
+             margin-left:520px;
+             
+        }
+        
+        #btn{
+            background-color:rgb(233,219,232);
+              border-radius:15px;   
+        }
+        #div1{
+            background-color:rgb(202,174,183);
+            cellpadding:25;
+             margin-top:130px;
+             height:38px;
+            width:330px;
+            margin-left:520px;
+        }
+    </style>
+     <body  bgcolor="E0FFFF">
+   <form action="admincheck"> 
+    
+     
+        <div><%@ include file="header.html" %></div>
+        <table id="div1">
+        <div> <tr><td align="center" colspan="2" id="div1">ADMIN</td></th></div>
+        </table>
+     <table style="border:0" align="Center" cellspacing="11" id="table1" >
+        
+    <tr><td  align="center">Username</td></tr>
+    <tr><td align="Center"><input type="text" name="t1" required></td></tr>
+    <tr><td align="Center">Password</td></tr>
+    <tr><td align="Center"><input type="password" name="t2" required></td></tr>
+
+<tr ><td align="Center"><input type="submit" value="login" id="btn"></td></tr>
+  
+   
+    <tr><td align="Center" id="t"><a href="admin_reg.html"><i> new admin ?</i></a></td></tr>
+   </table>
+     <div><%@ include file="footer1.html" %></div>
+ </form> 
+</body> 
+</html> 

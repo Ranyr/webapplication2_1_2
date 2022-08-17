@@ -1,0 +1,23 @@
+.admin{
+     
+}
+.admin .card{
+   border:1px solid black; 
+    
+    
+}
+
+.admin .card:hover
+{
+    background:#e2e2e2;
+    cursor:pointer;
+}
+.list-group-item.active{
+    background: #673ab7!important;
+    border-color:#673ab7!important;
+}
+.admin .card-footer:hover
+{ background:#673ab7!important;
+    cursor:pointer;
+    
+}

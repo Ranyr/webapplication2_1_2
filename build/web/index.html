@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+     footer {
+  text-align: center;
+  padding: 3px;
+  background-color:black;
+  color: white;
+ 
+}
+</style>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.shop.js"></script>
+</head>
+
+<body>
+
+<div id="site">
+	<header id="masthead">
+		<h1>Foodies <span class="tagline">order delicious food</h1>
+	</header>
+	<div id="content">
+		<div id="products">
+			<ul>
+				<li>
+					<div class="product-image">
+						<img src="cold.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Milk Shakes" data-price="5">
+						<h3 class="product-name">Milk Shakes</h3>
+						<p class="product-price">80</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-1">Quantity</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="cold.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Cold COffee vanillia" data-price="8">
+						<h3 class="product-name">Cold COffee vanillia</h3>
+						<p class="product-price">80</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                                         </div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="tea.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Coffie Plain" data-price="11">
+						<h3 class="product-name">Coffie Plain</h3>
+						<p class="product-price">50</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-3">Quantity</label>
+								<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+
+                     
+				
+			</ul>
+                    <ul>
+				<li>
+					<div class="product-image">
+						<img src="cold.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Chocolate Milk" data-price="5">
+						<h3 class="product-name">Chocolate Milk</h3>
+						<p class="product-price">80</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-1">Quantity</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="starters.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Mushroom chicken" data-price="8">
+						<h3 class="product-name">Mushroom chicken</h3>
+						<p class="product-price">300</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                                         </div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src=".jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Breaded Chicken Supreme" data-price="11">
+						<h3 class="product-name">Breaded Chicken Supreme</h3>
+						<p class="product-price">175</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-3">Quantity</label>
+								<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+
+                     
+				
+			</ul>
+                    <ul>
+				<li>
+					<div class="product-image">
+						<img src="images/wine1.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="French fries" data-price="5">
+						<h3 class="product-name">French fries</h3>
+						<p class="product-price">99</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-1">Quantity</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine2.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Fish and chip" data-price="8">
+						<h3 class="product-name">Fish and chip</h3>
+						<p class="product-price">195</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                                         </div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine3.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Mutter Paneer" data-price="11">
+						<h3 class="product-name">Mutter Paneer</h3>
+						<p class="product-price">215</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-3">Quantity</label>
+								<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+
+                     
+				
+			</ul>
+                    <ul>
+				<li>
+					<div class="product-image">
+						<img src="images/wine1.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Dal Makhani" data-price="5">
+						<h3 class="product-name">Dal Makhani</h3>
+						<p class="product-price">210</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-1">Quantity</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine2.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Crispy Chicken" data-price="8">
+						<h3 class="product-name">Crispy Chicken</h3>
+						<p class="product-price">49</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                                         </div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine3.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Tandoori Chicken" data-price="11">
+						<h3 class="product-name">Tandoori Chicken</h3>
+						<p class="product-price">500</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-3">Quantity</label>
+								<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+
+                     
+				
+			</ul>
+                    <ul>
+				<li>
+					<div class="product-image">
+						<img src="images/wine1.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Crispy Veg burger" data-price="5">
+						<h3 class="product-name">Crispy Veg burger</h3>
+						<p class="product-price">35</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-1">Quantity</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine2.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Gazar Halwa(kg)" data-price="8">
+						<h3 class="product-name">Gazar Halwa(kg)</h3>
+						<p class="product-price">180</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                                         </div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine3.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Ice Cream" data-price="11">
+						<h3 class="product-name">Ice Cream</h3>
+						<p class="product-price">35</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-3">Quantity</label>
+								<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+
+                     
+				
+			</ul>
+                    <ul>
+				<li>
+					<div class="product-image">
+						<img src="images/wine1.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Chocolate cake" data-price="5">
+						<h3 class="product-name">Chocolate cake</h3>
+						<p class="product-price">350</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-1">Quantity</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine2.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Spicy Delight" data-price="8">
+						<h3 class="product-name">Spicy Delight</h3>
+						<p class="product-price">130</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                                         </div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine3.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Veg Grill" data-price="11">
+						<h3 class="product-name">Veg Grill</h3>
+						<p class="product-price">100</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-3">Quantity</label>
+								<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+
+                     
+				
+			</ul>
+                    <ul>
+				<li>
+					<div class="product-image">
+						<img src="images/wine1.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Veg paneer grill" data-price="5">
+						<h3 class="product-name">Veg paneer grill</h3>
+						<p class="product-price">120</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-1">Quantity</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine2.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Garlic cheese grill" data-price="8">
+						<h3 class="product-name">Garlic cheese grill</h3>
+						<p class="product-price">120</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                                         </div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine3.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Keema Kofte" data-price="11">
+						<h3 class="product-name">Keema Kofte</h3>
+						<p class="product-price">200</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-3">Quantity</label>
+								<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+
+                     
+				
+			</ul>
+                    <ul>
+				<li>
+					<div class="product-image">
+						<img src="images/wine1.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Garlic Bread(3pcs)" data-price="5">
+						<h3 class="product-name">Garlic Bread(3pcs)</h3>
+						<p class="product-price">130</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-1">Quantity</label>
+								<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/wine2.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Vegetable soup" data-price="8">
+						<h3 class="product-name">Vegetable soup</h3>
+						<p class="product-price">110</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                                                         </div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+				
+				<li>
+					<div class="product-image">
+						<img src="images/india.jpg" alt="" />
+					</div>
+					<div class="product-description" data-name="Chicken soup" data-price="11">
+						<h3 class="product-name">Chicken soup</h3>
+						<p class="product-price">120</p>
+						<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-3">Quantity</label>
+								<input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+					</div>
+				</li>
+
+                     
+				
+			</ul>
+		</div>
+	</div>
+	
+	
+
+</div>
+
+<footer>
+  <p>Welcome to Food Ordering System</p>
+ 
+</footer>
+
+</body>
+</html>	
